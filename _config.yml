@@ -48,6 +48,8 @@ defaults:
 link-col: "#404040"
 hover-col: "#3465A4"
 
+google_analytics: "UA-50988891-2"
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
