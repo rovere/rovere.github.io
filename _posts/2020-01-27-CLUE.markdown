@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "CLUE on ArXiv"
+date:   2020-01-27
+categories: clue clustering hgcal algorithms gpu computing heterogeneous
+---
+
+After a rather long period of development and an even longer writing effort, we
+can finally announce that our work on the **CLUE** clustering
+algorithm for the **HGCAL** detector is available on arxViv: [link][clue-arxiv].
+
+As soon as possible we will submit it for publication.
+
+For more information about **CLUE** and its usage in the **HGCAL**
+reconstruction, please read [here][clue-reco].
+
+[clue-arxiv]: https://arxiv.org/abs/2001.09761v1
+[clue-reco]: http://hgcal.web.cern.ch/hgcal/Reconstruction/Tutorial/

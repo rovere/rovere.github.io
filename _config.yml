@@ -1,0 +1,57 @@
+title: Marco Rovere
+email: marco.rovere@cern.ch
+description: >- # this means to ignore newlines until "baseurl:"
+  A few info about myself
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: rovere
+
+# Build settings
+markdown: kramdown
+remote_theme: daattali/beautiful-jekyll
+#local_theme: beautiful-jekyll
+
+navbar-links:
+  Home: "/"
+  About me: "about"
+
+avatar: "img/avatar-icon.jpeg"
+round-avatar: true
+
+author: Marco Rovere
+
+# Select which links to show in the footer
+social-network-links:
+  rss: false
+  email: "marco.rovere@cern.ch"
+  github: rovere
+  linkedin: "rovere-marco-7032b528"
+
+share-links-active:
+  linkedin: true
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+link-col: "#404040"
+hover-col: "#3465A4"
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-local-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+
