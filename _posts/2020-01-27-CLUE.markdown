@@ -2,7 +2,7 @@
 layout: post
 title:  "CLUE on ArXiv"
 date:   2020-01-27
-categories: clue clustering hgcal algorithms gpu computing heterogeneous
+tags: clue clustering hgcal algorithms gpu heterogeneous computing
 ---
 
 After a rather long period of development and an even longer writing effort, we
