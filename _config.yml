@@ -38,6 +38,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
+      social-share: false
+      readtime: true
   -
     scope:
       path: "" # all files
