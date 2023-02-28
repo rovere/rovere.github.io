@@ -11,7 +11,7 @@ workflow to which the `Service` has been attached. Its activation is as easy as
 adding the following lines:
 
 ```python
-process.DependengyGraph = cms.Service('DependencyGraph')
+process.DependencyGraph = cms.Service('DependencyGraph')
 ```
 
 There are few configuration parameters that you can change. The full list of the
